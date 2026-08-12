@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #F8FAFC;
+  color: #0F172A;
+}
+
+::selection {
+  background: #1D4ED8;
+  color: #fff;
+}
+
+.accent-text {
+  color: #1D4ED8;
+}
+
+.dot-grid {
+  background-image: radial-gradient(#0F172A 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.04;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(100px);
+  opacity: 0.12;
+  pointer-events: none;
+  background: #1D4ED8;
+}
+
+.skill-bar {
+  height: 6px;
+  border-radius: 9999px;
+  background: #E2E8F0;
+  overflow: hidden;
+}
+.skill-bar-fill {
+  height: 100%;
+  border-radius: 9999px;
+  background: #1D4ED8;
+}
+.skill-bar-fill.primary {
+  background: #0F172A;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
