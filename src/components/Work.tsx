@@ -87,7 +87,7 @@ export default function Work() {
                 <div className="aspect-[4/3] overflow-hidden bg-blue-50 relative">
                   <Image
                     src={p.image}
-                    alt={`${p.title} screenshot placeholder`}
+                    alt={`${p.title} website preview`}
                     fill
                     sizes="(max-width: 768px) 90vw, 360px"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"

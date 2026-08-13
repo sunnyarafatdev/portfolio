@@ -153,7 +153,7 @@ export default function Experience() {
           <div className="rounded-2xl border border-black/8 p-6 bg-paper">
             <p className="font-mono text-xs uppercase tracking-widest text-ink/40 mb-2">Diploma</p>
             <p className="font-semibold text-sm">Diploma in Computer Technology</p>
-            <p className="text-sm text-ink/55">AITVET · 3.50/4.00 · 2021</p>
+            <p className="text-sm text-ink/55">AITVET · 3.50/4.00 · 2022</p>
           </div>
           <div className="rounded-2xl border border-black/8 p-6 bg-paper">
             <p className="font-mono text-xs uppercase tracking-widest text-ink/40 mb-2">Certifications</p>
