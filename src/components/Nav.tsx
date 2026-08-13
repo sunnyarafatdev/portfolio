@@ -7,6 +7,7 @@ export default function Nav() {
 
   const links = [
     { href: "#services", label: "Skills" },
+    { href: "#experience", label: "Experience" },
     { href: "#work", label: "Work" },
     { href: "#about", label: "About" },
     { href: "#contact", label: "Contact" },

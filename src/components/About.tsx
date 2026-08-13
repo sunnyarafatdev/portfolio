@@ -8,10 +8,11 @@ const fadeUp = {
 };
 
 const skills = [
-  { label: "Digital Marketing & Paid Media", value: 95, primary: true },
-  { label: "SEO (on/off-page, technical)", value: 90 },
-  { label: "Conversion Tracking (GTM, CAPI)", value: 85 },
-  { label: "WordPress & Shopify", value: 85 },
+  { label: "Paid Media & Performance Marketing", value: 95, primary: true },
+  { label: "Meta Ads (Advantage+, Andromeda, CAPI)", value: 92 },
+  { label: "Google Ads, SEM & Analytics (GA4)", value: 88 },
+  { label: "SEO (on/off-page, technical)", value: 85 },
+  { label: "Full-Funnel Strategy & ROI Optimization", value: 90 },
   { label: "Web Development (React/Next.js)", value: 75 },
 ];
 
@@ -32,18 +33,21 @@ export default function About() {
           </h2>
           <p className="text-ink/65 leading-relaxed mb-4">
             I&apos;m Arafat Sunny, a Digital Marketing Specialist and Paid Media Buyer based in Dhaka,
-            Bangladesh, currently working with Cloud Bridge ISC, a study abroad consultancy, since
-            February 2026.
+            Bangladesh, with 6+ years driving scalable growth across banking, paints, education, and
+            lifestyle brands. I currently work with Cloud Bridge ISC, a study abroad consultancy,
+            since February 2026.
           </p>
           <p className="text-ink/65 leading-relaxed mb-4">
-            My core work is running and optimizing paid campaigns and proving results through proper
-            conversion tracking. Alongside that, I build and ship independent web projects — from
-            static SEO-driven sites to Shopify and WordPress stores.
+            My core work is planning and running full-funnel paid campaigns — Meta, Google, TikTok —
+            and proving results through proper conversion tracking (Pixel, CAPI, GTM, GA4). Alongside
+            that, I build and ship independent web projects, from static SEO-driven sites to Shopify
+            and WordPress stores.
           </p>
           <p className="text-ink/65 leading-relaxed">
             That combination is rare: most marketers can&apos;t code, and most developers don&apos;t
             think about search intent or ad tracking. I understand both sides of a campaign — the ad
-            and the page it lands on.
+            and the page it lands on — which is how I&apos;ve driven results like a 27% sales uplift
+            for agency clients and a 26% enrollment increase through a single campaign.
           </p>
         </motion.div>
 

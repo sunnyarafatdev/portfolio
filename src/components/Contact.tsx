@@ -94,11 +94,29 @@ export default function Contact() {
           )}
         </form>
 
-        <div className="mt-10 text-sm text-ink/50">
-          or email me directly at{" "}
-          <a href={`mailto:${siteConfig.email}`} className="accent-text font-medium hover:underline">
-            {siteConfig.email}
-          </a>
+        <div className="mt-10 flex flex-col items-center gap-3 text-sm text-ink/50">
+          <div>
+            or email me directly at{" "}
+            <a href={`mailto:${siteConfig.email}`} className="accent-text font-medium hover:underline">
+              {siteConfig.email}
+            </a>
+          </div>
+          <div className="flex items-center gap-5">
+            <a href={`tel:${siteConfig.phone}`} className="hover:text-ink transition-colors">
+              {siteConfig.phone}
+            </a>
+            <span className="text-ink/20">·</span>
+            <a
+              href={siteConfig.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink transition-colors"
+            >
+              LinkedIn
+            </a>
+            <span className="text-ink/20">·</span>
+            <span>{siteConfig.location}</span>
+          </div>
         </div>
       </motion.div>
     </section>
