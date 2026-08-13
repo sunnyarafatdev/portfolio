@@ -15,8 +15,13 @@ export default function Nav() {
   return (
     <header className="fixed top-0 inset-x-0 z-50 bg-paper/90 backdrop-blur-md border-b border-black/5">
       <nav className="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
-        <a href="#home" className="font-display font-bold text-lg tracking-tight">
-          Arafat<span className="accent-text">Sunny</span>
+        <a href="#home" className="flex items-center gap-2.5 group">
+          <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 text-white font-display font-bold text-sm shadow-sm shadow-blue-900/20 group-hover:scale-105 transition-transform">
+            AS
+          </span>
+          <span className="font-display font-bold text-lg tracking-tight">
+            Arafat<span className="accent-text">Sunny</span>
+          </span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-ink/70">

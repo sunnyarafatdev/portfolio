@@ -4,7 +4,10 @@ export default function Footer() {
   return (
     <footer className="border-t border-black/5 py-10">
       <div className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-5">
-        <p className="font-display font-bold text-sm">
+        <p className="flex items-center gap-2 font-display font-bold text-sm">
+          <span className="flex items-center justify-center w-6 h-6 rounded-md bg-gradient-to-br from-blue-600 to-blue-800 text-white text-[10px]">
+            AS
+          </span>
           Arafat<span className="accent-text">Sunny</span>
         </p>
 
