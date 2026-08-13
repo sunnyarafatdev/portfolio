@@ -87,7 +87,7 @@ export default function Hero() {
           <div className="relative w-full max-w-sm">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden border border-black/8 shadow-2xl shadow-blue-900/10 bg-blue-50 relative">
               <Image
-                src="/headshot-placeholder.svg"
+                src="/headshot.jpg"
                 alt="Portrait of Arafat Sunny, Digital Marketing Specialist"
                 fill
                 sizes="(max-width: 640px) 90vw, 400px"
